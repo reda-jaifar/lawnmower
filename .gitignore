@@ -1,0 +1,33 @@
+# Ignore Maven output files
+target/
+
+# Ignore Maven specific settings
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore Eclipse files (optional)
+.project
+.classpath
+.settings/
+
+# Ignore IntelliJ IDEA files (optional)
+.idea/
+*.iml
+out/
+
+# Ignore Kotlin specific files
+*.log
+*.class
+*.jar
+*.war
+
+# Ignore OS-specific files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.bat
+
+# Linux
+*~
